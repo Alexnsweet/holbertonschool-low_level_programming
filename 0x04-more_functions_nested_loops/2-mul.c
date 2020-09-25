@@ -1,19 +1,14 @@
 #include "holberton.h"
 /**
- * _isdigit - tests to see if digit
- * @c: integer value of ascii digit character
+ * mul - multiplies 2 integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: 1 if digit 0 if other
+ * Return: value of multiplication
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= 48 && c <= 57)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	int product = a * b;
 
+	return (product);
 }
