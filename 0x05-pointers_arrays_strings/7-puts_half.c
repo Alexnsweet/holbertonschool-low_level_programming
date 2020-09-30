@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * puts_half - prints second half of string
  * @str: string input
